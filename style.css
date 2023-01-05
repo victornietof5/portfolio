@@ -556,6 +556,10 @@ html {
     color: #fff;
     font-size: 18px;
 }
+.contacto a{
+    color: #fff;
+    text-decoration: none;
+}
 .contacto button{
     cursor: pointer;
     background-color: transparent;
