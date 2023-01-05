@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="stilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
     <!-- menu emcabezado-->
     <div class="contenedor-header">
@@ -15,27 +19,28 @@
             <div class="logo">
                 <a href="#">Victor Nieto</a>
             </div>
-            <nav id="nav">
+            <!--class="responsive" van al lado de nav para haverlo responsive -->
+            <nav id="nav" >
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio"onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
     </div>
-    
+
     <!--seccion inicio-->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/foto-perfil.png" alt="">
+                <img src="img/imgperfil.jpg" alt="">
             </div>
             <h1>VICTOR HUGO NIETO</h1>
             <h2>Programador Web Full Stack</h2>
@@ -53,8 +58,8 @@
         <div class="contenido-seccion">
             <h2>Sobre Mi</h2>
             <p><span>Hola, soy victor Nieto.</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Autem vero earum reiciendis aliquam consequatur odio, aperiam rem debitis odit fugit cum minima 
-            sunt quasi esse dolore maiores dicta et dolor.</p>
+                Autem vero earum reiciendis aliquam consequatur odio, aperiam rem debitis odit fugit cum minima
+                sunt quasi esse dolore maiores dicta et dolor.</p>
 
             <div class="fila">
                 <!--Datos personales-->
@@ -215,7 +220,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -231,9 +235,10 @@
                         <h4>Desarrolador Web Full Stack</h4>
                         <span class="casa"> Factoria F5</span>
                         <span class="fecha"> 2022 - 2023</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -242,9 +247,10 @@
                         <h4>Tecnologo en Electricidad y Electronica</h4>
                         <span class="casa"> SENA</span>
                         <span class="fecha"> 2014 - 2016</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -253,9 +259,10 @@
                         <h4>Tecnico Informatico</h4>
                         <span class="casa"> SENA</span>
                         <span class="fecha"> 2011 - 2012</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -268,9 +275,10 @@
                         <h4>Front Developer</h4>
                         <span class="casa"> Nombre Compañía Factoria F5</span>
                         <span class="fecha"> 2022 - 2023</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -279,9 +287,10 @@
                         <h4>Tecnico Electromecanico 2</h4>
                         <span class="casa"> Rendes Mantemiento sl</span>
                         <span class="fecha"> 2019 - 2022</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -290,9 +299,10 @@
                         <h4>Tecnico Instalador</h4>
                         <span class="casa"> Instalación de fibra óptica sl</span>
                         <span class="fecha"> 2018 - 2019</span>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit aperiam 
-                        illum id voluptatem beatae corrupti repudiandae sapiente. 
-                        Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate reprehenderit
+                            aperiam
+                            illum id voluptatem beatae corrupti repudiandae sapiente.
+                            Voluptate velit deserunt earum impedit adipisci! Earum porro est sit laudantium!</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -328,23 +338,23 @@
                         <p>Fotografía</p>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
     </section>
 
-    
-     <!--seccion Contacto-->
-     <section id="contacto" class="contacto">
+
+    <!--seccion Contacto-->
+    <section id="contacto" class="contacto">
         <div class="contenido-seccion">
             <h2>CONTACTO</h2>
             <div class="fila">
                 <!--Formulario-->
                 <div class="col">
-                    <input type="text" placeholder="Victor Nieto">
-                    <input type="text" placeholder="612416972">
-                    <input type="text" placeholder="vihugo317@gmail.com">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Dirección de Correo">
                     <input type="text" placeholder="tema">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     <button>
@@ -358,7 +368,16 @@
                     <div class="info">
                         <ul>
                             <li>
-                                
+                                <i class="fa-solid fa-location-dot"></i>
+                                Vilanova I la Geltrú 12, 2-1
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                llamar: 612416972
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:vihugo317@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -367,6 +386,20 @@
 
             </div>
         </div>
-     </section>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
