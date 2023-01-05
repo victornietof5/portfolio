@@ -25,14 +25,13 @@ function efectoHabilidades(){
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("typescript");
-        habilidades[3].classList.add("microsoftoffice");
+        habilidades[3].classList.add("sap");
         habilidades[4].classList.add("comunicacion");
         habilidades[5].classList.add("trabajoequipo");
         habilidades[6].classList.add("creatividad");
         habilidades[7].classList.add("dedicacion");
     }
 }
-
 //detecta el scrolling para aplicar aniamciones a las barras de skills
 window.onscroll = function(){
     efectoHabilidades();
