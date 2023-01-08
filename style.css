@@ -680,7 +680,7 @@ footer .arriba{
     .sobremi .fila{
         display: block;
     }
-    .sobremi .fila.col{
+    .sobremi .fila .col{
         width: fit-content;
     }
     .skills .fila{
