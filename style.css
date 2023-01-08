@@ -493,7 +493,10 @@ html {
 .portfolio .galeria .proyecto img{
     width: 100%;
     display: block;
-    
+}
+.portfolio a{
+    color: #fff;
+    text-decoration: none;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
