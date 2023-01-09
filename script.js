@@ -37,3 +37,11 @@ window.onscroll = function(){
     efectoHabilidades();
 }
 
+function ConfirmDownload(){
+    let result = confirm("confirm download?");
+    if(result ==true){
+        return true;
+    } else {
+        return false;
+    }
+}
