@@ -37,6 +37,7 @@ window.onscroll = function(){
     efectoHabilidades();
 }
 
+//funcion para confirmar la descarga del cv
 function ConfirmDownload(){
     let result = confirm("confirm download?");
     if(result ==true){
