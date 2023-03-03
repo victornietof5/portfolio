@@ -311,13 +311,13 @@ html {
 }
 @keyframes typescript{
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 50%;}
 }
-.skills .skill .sap{
+.skills .skill .react{
     width: 0%;
-    animation: 2s sap forwards;
+    animation: 2s react forwards;
 }
-@keyframes sap{
+@keyframes react{
     0%{width: 0%;}
     100%{width: 40%;}
 }
